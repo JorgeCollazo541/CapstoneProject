@@ -1,0 +1,22 @@
+/*General*/
+#body{
+    background: #000000;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav{
+    background-color:  #5A0508;
+}
+div.info{
+    background-color: #5A0508;
+    color: #ffffff;
+}
+
+a.nav-link{
+    color: #220901
+}
+button.info{
+    background-color: #5A0508;
+    color: #ffffff;
+}
+

@@ -218,3 +218,5 @@
   });
 
 })(jQuery);
+
+//Cart section

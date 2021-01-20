@@ -971,7 +971,9 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
+  content: "......................................................................"
+ "...................................................................."
+ "....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -1011,6 +1013,7 @@ section {
   font-family: "Poppins", sans-serif;
   color: rgba(255, 255, 255, 0.5);
 }
+
 
 /*--------------------------------------------------------------
 # Specials
@@ -1073,6 +1076,45 @@ section {
     border: 0;
     padding: 15px;
   }
+}
+
+/*--------------------------------------------------------------
+# Order Cart
+--------------------------------------------------------------*/
+
+.order-cart{
+  padding: 15px 0;
+  background: #1d1b16;
+  margin-top: 110px;
+}
+
+.add-cart-btn{
+  color: #cda45e;
+  border-color: #cda45e;
+}
+
+.add-cart-btn:hover{
+  background-color: #cda45e;
+}
+
+.remove-cart-btn{
+  color: #cda45e;
+  border-color: #cda45e;
+}
+
+.remove-cart-btn:hover{
+  background-color: #cda45e;
+}
+
+.purchase-btn{
+  color: #ffffff;
+  background-color: #cda45e;
+  border-color: #cda45e;
+}
+
+.purchase-btn:hover{
+  background-color: #d3af71;
+  color: #ffffff;
 }
 
 /*--------------------------------------------------------------
